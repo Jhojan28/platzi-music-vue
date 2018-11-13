@@ -1,4 +1,9 @@
 @import '../../node_modules/bulma/bulma.sass';
-html {
-    color: red;
+.move-enter-active, .move-leave-active {
+    transform: translateX(0);
+    transition: all .3ms linear;
+}
+
+.move-enter, .move-leave-to {
+    transform: translateX(100%);
 }

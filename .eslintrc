@@ -5,7 +5,7 @@
         "no-mixed-spaces-and-tabs": 0,
         "no-tabs": 0,
         "eqeqeq": 0,
-        "indent": ["error", "tab"]
+        "indent": 0
     },
     "plugins": ["html"]
 }
